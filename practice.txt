@@ -1,0 +1,6 @@
+Hi everyone
+we are learing file  I/O
+using java.
+I like programming in java.
+
+1,2, 76, 84, 90, 101
