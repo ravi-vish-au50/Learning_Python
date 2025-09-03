@@ -1,3 +1,4 @@
+
 # Strinng is a built-in data type in Python that represents a sequence of characters. Strings are immutable, meaning that once they are created, their content cannot be changed. They can be created using single quotes (' '), double quotes (" "), or triple quotes (''' ''' or """ """) for multi-line strings.
 # Strings can contain letters, numbers, symbols, and whitespace characters. They support various operations such as concatenation, slicing, and formatting. Python provides a rich set of string methods for manipulating and working with strings.
 #         break # exit the loop
@@ -118,3 +119,62 @@
 
 # write a calculate_factorial(n): # n is a parameter    
 # function to calculate the factorial of a number
+
+
+# Doc # string
+# def calculate_factorial(n): # n is a parameter
+#     """This function calculates the factorial of a number""" 
+#     if n < 0: # check if the number is negative
+#         return "Factorial is not defined for negative numbers"
+#     elif n == 0 or n == 1: # check if the number is 0 or 1
+#         return 1
+#     else:
+#         factorial = 1 # initialization
+#         for i in range(2, n + 1): # iterate from 2 to n
+#             factorial *= i # factorial = factorial * i
+#         return factorial # return the factorial
+# result = calculate_factorial(5) # 5 is an argument
+# print(result) # 120
+
+# Variables number of arguments
+# def calculate_sum(*args): # *args is a variable number of arguments
+#     """This function calculates the sum of a variable number of arguments"""
+#     total = 0 # initialization
+#     for num in args: # iterate through each argument
+#         total += num # total = total + num
+#     return total # return the total
+# result = calculate_sum(1, 2, 3, 4, 5) # 1, 2, 3, 4, 5 are arguments
+# print(result) # 15
+
+# def avg_marks(*marks):
+#     total, count = 0, 0
+#     for i in marks:
+#         total += i
+#         count += 1
+#         avg = total / count
+#     return avg
+# print(avg_marks(45, 55, 65, 75, 85)) # 65.0
+# print(avg_marks(90, 80, 70)) # 80.0
+# print(avg_marks(100, 95, 85, 80, 75, 70)) # 85.83333333333333
+
+# Built in Functions
+# for i in range(6, 11):
+#     print(i)
+
+#     round(5.67) # 6
+#     round(5.34) # 5
+#     abs(-10) # 10
+#     abs(10) # 10
+#     pow(2, 3) # 8
+#     pow(3, 2) # 9
+#     min(1, 2, 3, 4, 5) # 1
+#     max(1, 2, 3, 4, 5) #
+#     5
+#     sum([1, 2, 3, 4, 5]) # 15
+#     len("Hello") # 5
+#     len([1, 2, 3, 4, 5]) # 5
+#     len((1, 2, 3, 4, 5)) #
+#     print(abs)
+#     5
+#     type(10) # <class 'int'>
+
